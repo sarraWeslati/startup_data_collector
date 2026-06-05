@@ -7,7 +7,9 @@ if hasattr(sys.stderr, "reconfigure"):
     sys.stderr.reconfigure(encoding="utf-8")
 
 from extractor.entity_extractor import extract_from_url
+from collector.site_collector import collect_from_site
 from storage.file_storage import save_json, make_filename
+
 
 def normalize_url(url):
     url = url.strip()
@@ -28,7 +30,18 @@ def main():
         print("URL invalide")
         return
 
-    data = extract_from_url(url)
+    mode = input("Mode (1 = une page, 2 = site complet) : ").strip()
+
+    if mode == "2":
+        data = collect_from_site(
+            start_url=url,
+            max_pages=10,
+            max_depth=1,
+        )
+        filename = "site_collection.json"
+    else:
+        data = extract_from_url(url)
+        filename = make_filename(data)
 
     if data is None:
         print("Impossible d'extraire les donnees")
@@ -37,7 +50,6 @@ def main():
     print("\nResultat :")
     print(data)
 
-    filename = make_filename(data)
     save_json(data, filename)
 
 

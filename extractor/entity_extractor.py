@@ -7,17 +7,19 @@ from extractor.investor_extractor import extract_investor_info
 from extractor.startup_extractor import extract_startup_info
 from storage.file_storage import save_markdown
 from utils.json_tools import merge_entities
-from utils.text_processing import clean_text, chunk_text
+from utils.text_processing import clean_text, smart_chunker 
 from utils.normalization import normalize_data
 
 
 def extract_from_url(url):
-    """
-    Pipeline complet :
-    URL -> crawl -> sauvegarde brut -> nettoyage -> detection -> extraction -> fusion.
-    """
     markdown = asyncio.run(crawl_url(url))
 
+    if not markdown:
+        return None
+
+    return extract_from_markdown(markdown, url)
+
+def extract_from_markdown(markdown, url):
     if not markdown:
         return None
 
@@ -31,7 +33,7 @@ def extract_from_url(url):
     detected = detect_entity_type(cleaned_text)
     entity_type = detected.get("entity_type", "unknown")
 
-    chunks = chunk_text(cleaned_text)
+    chunks = smart_chunker(cleaned_text, max_chars=6000)
     extracted_results = []
 
     for chunk in chunks:
@@ -57,5 +59,5 @@ def extract_from_url(url):
                 item["source_url"] = url
 
     final_data = normalize_data(final_data)
-    
+
     return final_data
