@@ -1,3 +1,5 @@
+from urllib import response
+
 from llm.openrouter_client import call_llm
 from utils.json_tools import parse_llm_json
 
@@ -64,5 +66,5 @@ Texte :
 {text}
 """
 
-    response = call_llm(prompt)
+    response = call_llm(prompt, max_tokens=8000)
     return parse_llm_json(response)

@@ -35,7 +35,7 @@ def clean_text(text):
     return "\n".join(cleaned_lines)
 
 
-def chunk_text(text, max_chars=6000):
+def chunk_text(text, max_chars=3000):
     """
     Decoupe un long texte en blocs pour eviter de depasser le contexte du LLM.
     """

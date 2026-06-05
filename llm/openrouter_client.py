@@ -5,18 +5,23 @@ from openai import OpenAI
 
 load_dotenv()
 
+api_key = os.getenv("OPENROUTER_API_KEY")
+
+if not api_key:
+    raise RuntimeError(
+        "OPENROUTER_API_KEY introuvable. "
+        "Cree un fichier .env avec OPENROUTER_API_KEY=ta_cle_openrouter"
+    )
+
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key=os.getenv("OPENROUTER_API_KEY"),
+    api_key=api_key,
 )
 
 
 def call_llm(prompt, max_tokens=3000):
-    """
-    Envoie un prompt a OpenRouter et retourne le texte genere.
-    """
     response = client.chat.completions.create(
-        model="openrouter/owl-alpha",
+        model="mistralai/mistral-small-3.2-24b-instruct",
         messages=[
             {
                 "role": "user",

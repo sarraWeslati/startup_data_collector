@@ -37,5 +37,5 @@ Texte :
 {text}
 """
 
-    response = call_llm(prompt)
+    response = call_llm(prompt, max_tokens=8000)
     return parse_llm_json(response)
