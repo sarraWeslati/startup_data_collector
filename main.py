@@ -9,6 +9,7 @@ if hasattr(sys.stderr, "reconfigure"):
 from extractor.entity_extractor import extract_from_url
 from collector.site_collector import collect_from_site
 from storage.file_storage import save_json, make_filename
+from extractor.enrichment_extractor import enrich_entities
 
 
 def normalize_url(url):
@@ -24,31 +25,57 @@ def normalize_url(url):
 
 
 def main():
-    url = normalize_url(input("Entrer une URL : "))
+
+    url = normalize_url(
+        input("Entrer une URL : ")
+    )
 
     if not url:
         print("URL invalide")
         return
 
-    mode = input("Mode (1 = une page, 2 = site complet) : ").strip()
+    mode = input(
+        "Mode (1 = une page, 2 = site complet) : "
+    ).strip()
 
     if mode == "2":
+
         data = collect_from_site(
             start_url=url,
             max_pages=10,
             max_depth=1,
         )
+
         filename = "site_collection.json"
+
     else:
+
         data = extract_from_url(url)
+
         filename = make_filename(data)
 
     if data is None:
-        print("Impossible d'extraire les donnees")
+
+        print(
+            "Impossible d'extraire les donnees"
+        )
+
         return
 
     print("\nResultat :")
     print(data)
+
+    enrich = input(
+        "Enrichir avec Website + Social Links + Tavily ? (y/n) : "
+    ).strip().lower()
+
+    if enrich == "y":
+
+        data = enrich_entities(
+            data if isinstance(data, list) else [data],
+            use_linkedin=False,
+            max_entities=10
+        )
 
     save_json(data, filename)
 
