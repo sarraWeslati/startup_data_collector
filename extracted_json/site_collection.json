@@ -10,13 +10,11 @@
         "founders": [
             {
                 "name": "Gerstner Waves",
-                "role": "Founder",
-                "linkedin": null
+                "role": "Founder @ Skorppio"
             },
             {
-                "name": "Granville",
-                "role": "CAIO, Co-Founder",
-                "linkedin": null
+                "name": "Granville CAIO",
+                "role": "Co-founder"
             }
         ],
         "website": "https://3dwave.tech/",
@@ -26,12 +24,6 @@
         "startup_stage": null,
         "investors": [],
         "source_url": "https://thedot.tn/4-nos-staurtups",
-        "enrichment_sources": [
-            "https://3dwave.tech/"
-        ],
-        "failed_enrichment_sources": [],
-        "social_links_found": false,
-        "confidence_score": 0.2,
         "technologies": [
             "3D Printing",
             "3D Scanning",
@@ -42,7 +34,13 @@
             "3D Printing Services",
             "3D Scanning Services",
             "VR/AR Solutions"
-        ]
+        ],
+        "enrichment_sources": [
+            "https://3dwave.tech/"
+        ],
+        "failed_enrichment_sources": [],
+        "social_links_found": false,
+        "confidence_score": 0.5
     },
     {
         "entity_type": "startup",
@@ -67,43 +65,37 @@
             "tiktok": "https://www.tiktok.com/@aromairtunisie",
             "youtube": "https://www.youtube.com/@aromairtunisie"
         },
-        "legal_name": "AROM R SARL",
-        "tagline": "Intelligent AROMA DIFFUSER/ THE ART OF THE SCENTS",
-        "address": "Avenue Fattouma Bourguiba Residence EZZAHRA, SOUKRA, ARIANA, TN",
-        "leadership_team": [
-            {
-                "name": "youssef krichen",
-                "linkedin": "https://tn.linkedin.com/in/youssef-krichen"
-            },
-            {
-                "name": "Rim Chakroun Debbich",
-                "linkedin": "https://tn.linkedin.com/in/rim-chakroun-debbich-631463211"
-            },
-            {
-                "name": "FOUED BHOURI",
-                "linkedin": "https://tn.linkedin.com/in/foued-bhouri-1102ba220"
-            }
-        ],
-        "employee_count": 11,
-        "technologies": [
-            "Artificial Intelligence (AI)",
-            "Air Quality Monitoring",
-            "Scent Diffusion System"
-        ],
+        "phone": "+216 98 945 250",
+        "address": "AVENUE UMA LA SOUKRA, Résidence OMRAN – 2ème Étage N°4, ARIANA, 2036",
         "products_services": [
-            "Professional Aroma Diffuser (ZOLTAN and ZEE)",
-            "Home Care Aroma Diffuser",
-            "IAQ and Air Quality Monitoring Solutions"
+            "Diffuseurs de parfum professionnels",
+            "Solutions de diffusion olfactive",
+            "Création de parfums signature (Neroli & Co)",
+            "Solutions de qualité et de purification de l'air (Think Air)",
+            "Formulations parfumées haute performance (Zeelab)",
+            "Programme de réduction des risques infectieux (Tammani)"
         ],
-        "partners": [
-            "THINK'AIR, Inc."
+        "customers": [
+            "AX",
+            "Audi",
+            "Cupra",
+            "Geox",
+            "Lignero Set",
+            "Mövenpick",
+            "Porsche",
+            "Novotel",
+            "Ooredoo",
+            "Ola Energy",
+            "Mall of Sousse"
         ],
+        "legal_name": "AROM R SARL",
+        "tagline": "Parfumez vos espaces avec style et efficacité, partout en Tunisie.",
         "enrichment_sources": [
             "https://arom-air.com/"
         ],
         "failed_enrichment_sources": [],
         "social_links_found": true,
-        "confidence_score": 0.7
+        "confidence_score": 0.5
     },
     {
         "entity_type": "startup",
@@ -121,12 +113,20 @@
         "startup_stage": null,
         "investors": [],
         "source_url": "https://thedot.tn/4-nos-staurtups",
+        "technologies": [
+            "GitHub",
+            "GitHub Copilot",
+            "npm"
+        ],
+        "products_services": [
+            "Plateforme de gestion d'entreprise en ligne"
+        ],
         "enrichment_sources": [],
         "failed_enrichment_sources": [
             "https://iberis.io/"
         ],
         "social_links_found": false,
-        "confidence_score": 0.2
+        "confidence_score": 0.4
     },
     {
         "entity_type": "startup",
@@ -164,7 +164,7 @@
         "email": "service.client@classquiz.tn",
         "linkedin": null,
         "status": "active",
-        "startup_stage": null,
+        "startup_stage": "growth",
         "investors": [],
         "source_url": "https://thedot.tn/4-nos-staurtups",
         "social_links": {
@@ -174,110 +174,109 @@
             "messenger": "https://m.me/ClassQuiz"
         },
         "products_services": [
-            "Plateforme éducative interactive",
-            "Accompagnement académique personnalisé",
-            "Applications mobiles (Android et iOS)",
-            "Version desktop",
-            "Version web"
+            "Interactive educational platform for primary school students",
+            "Exam preparation tools",
+            "Parent monitoring features",
+            "Educational games and activities"
         ],
+        "technologies": [
+            "Web application",
+            "Mobile application (iOS and Android)",
+            "Interactive learning tools"
+        ],
+        "awards": [
+            "Best Digital Educational Application in Tunisia and the Arab World (ALECSO)"
+        ],
+        "customers": [
+            "Primary school students",
+            "Parents"
+        ],
+        "phone": "+216 31 334 646",
         "enrichment_sources": [
             "https://classquiz.tn/"
         ],
         "failed_enrichment_sources": [],
         "social_links_found": true,
-        "confidence_score": 0.4
+        "confidence_score": 0.5
     },
     {
         "entity_type": "startup",
         "startup_name": "Coinsence.org",
         "sector": "Fintech / Blockchain",
         "description": "Coinsence permet aux projets et aux organisations de créer leurs propres crypto-actifs et monnaies communautaires pour stimuler l'échange de ressources, la collaboration et le partage de la valeur au-delà de toutes les frontières.",
-        "country": null,
+        "country": "Tunisia",
         "city": null,
         "founding_year": null,
-        "founders": [
-            {
-                "name": "Karim Chabrak",
-                "linkedin": "https://de.linkedin.com/in/dr-karim-chabrak-57815677?trk=org-employees"
-            }
-        ],
+        "founders": [],
         "website": "https://coinsence.org",
         "email": null,
         "linkedin": "https://www.linkedin.com/company/coinsencetn",
         "status": null,
         "startup_stage": null,
-        "investors": [],
+        "investors": [
+            "UNICEF Innovation Fund"
+        ],
         "source_url": "https://thedot.tn/4-nos-staurtups",
         "social_links": {
             "facebook": "https://www.facebook.com/coinsencetunisia/",
             "linkedin": "https://www.linkedin.com/company/coinsencetn",
             "github": "https://github.com/Coinsence/"
         },
-        "tagline": "Enabling people",
-        "address": "Tunis, Tunis",
-        "leadership_team": [
-            {
-                "name": "Mohamed Ali Belajouza",
-                "linkedin": "https://sa.linkedin.com/in/mohamed-ali-belajouza/fr?trk=org-employees"
-            },
-            {
-                "name": "Dr. Karim Chabrak",
-                "linkedin": "https://de.linkedin.com/in/dr-karim-chabrak-57815677?trk=org-employees"
-            },
-            {
-                "name": "Mortadha Ghanmi",
-                "linkedin": "https://tr.linkedin.com/in/mortadha-ghanmi?trk=org-employees"
-            },
-            {
-                "name": "Ghaith Daly",
-                "linkedin": "https://tn.linkedin.com/in/ghaith-daly?trk=org-employees"
-            }
-        ],
-        "employee_count": 11,
         "technologies": [
             "Blockchain",
-            "Smart Contracts"
+            "Crypto Assets",
+            "Decentralized Collaboration",
+            "Algorand"
         ],
         "products_services": [
-            "Création de crypto-actifs et monnaies communautaires",
-            "Plateforme décentralisée pour la collaboration et le partage de la valeur"
+            "Decentral Collaboration & Value Exchange Platform",
+            "Collaboration Spaces",
+            "Crypto Asset Issuance",
+            "Crowd-Funding",
+            "Resource Marketplaces",
+            "Peer-to-Peer Transactions",
+            "Supporter Engagement"
         ],
-        "hiring": true,
-        "open_positions": [
-            "Ingénieur",
-            "Assistance commerciale",
-            "Directeur exploitation",
-            "Scrum master",
-            "Assistance",
-            "Chef d’équipe",
-            "Superviseur/chef de bureau",
-            "Ingénieur Réseau Junior"
+        "partners": [
+            "PROGRES - Migration Mobilisation de la Diaspora",
+            "UNICEF",
+            "EU-GIZ",
+            "MENA",
+            "BCT",
+            "Hammamet Valley Hub",
+            "I4C MENA"
         ],
+        "customers": [
+            "Oula Tarssim",
+            "Lotfi Gabsi",
+            "Rajae Boujnah"
+        ],
+        "tagline": "Coinsence is a platform that provides a range of tools to empower people, organizations and communities to collaborate on initiatives that benefit society",
+        "funding_stage": "Funding Raised",
         "enrichment_sources": [
             "https://coinsence.org"
         ],
         "failed_enrichment_sources": [],
         "social_links_found": true,
-        "confidence_score": 0.7
+        "confidence_score": 0.6
     },
     {
         "entity_type": "startup",
         "startup_name": "Cynoia",
         "sector": "B2B software services",
         "description": "Plateforme qui réunit tous les outils de communication et de collaboration sous un même toit, de manière simple et efficace.",
-        "country": null,
-        "city": null,
+        "country": "Tunisia",
+        "city": "Tunis",
         "founding_year": null,
         "founders": [
-            "Kofi Nkrumah",
-            "Juma Chikondi",
-            "Thabo Mbeki",
-            "Amina Nuru",
-            "Tunde Afolabi",
-            "Kwame Mensah",
-            "Oluwaseun Adeola",
-            "Nassreddine RIAHI",
-            "Ayoub Rabeh"
+            {
+                "name": "Nassreddine RIAHI",
+                "linkedin": "https://fr.linkedin.com/in/nassreddine-riahi"
+            },
+            {
+                "name": "Ayoub Rabeh",
+                "linkedin": null
+            }
         ],
         "website": "https://cynoia.com/",
         "email": null,
@@ -293,22 +292,42 @@
             "youtube": "https://www.youtube.com/@cynoia",
             "twitter": "https://x.com/cynoia"
         },
+        "products_services": [
+            "Plateforme de collaboration",
+            "IA rédigeant et traduisant en plus de 20 langues",
+            "Projets",
+            "Vidéo",
+            "Chat",
+            "Fichiers",
+            "Calendrier",
+            "Notes"
+        ],
+        "customers": [
+            "Orange",
+            "Safari",
+            "AfricInvest",
+            "African Development Bank",
+            "African Union",
+            "African Export-Import Bank",
+            "African Development Bank Group",
+            "African Business Community",
+            "African Entrepreneurship Ecosystem",
+            "African Innovation Hub",
+            "Ooredoo"
+        ],
+        "partners": [
+            "Ooredoo"
+        ],
         "tagline": "LA plateforme africaine de projets et collaboration où tâches, chat, appels, calendrier et fichiers s'intègrent!",
         "address": {
             "primary": "69, Rue du Rouet, 13008 Marseille, Provence-Alpes-Côte d'Azur, FR",
-            "secondary": [
-                "Rue du Lac Malaren, 1053 Lac 1, Tunis, TN",
-                "Cité Keur Gorgui, Lot 65, Dakar, SN"
-            ]
+            "secondary": "Rue du Lac Malaren, 1053 Lac 1, Tunis, TN",
+            "tertiary": "Cité Keur Gorgui, Lot 65, Dakar, SN"
         },
         "leadership_team": [
             {
                 "name": "Nassreddine RIAHI",
                 "linkedin": "https://fr.linkedin.com/in/nassreddine-riahi"
-            },
-            {
-                "name": "Ayoub Rabeh",
-                "linkedin": null
             }
         ],
         "employee_count": 27,
@@ -329,13 +348,10 @@
             "Data Security and Privacy",
             "Scalable Solutions"
         ],
-        "products_services": [
-            "Cynoia (Logiciel de collaboration de contenu sur le cloud)"
-        ],
         "awards": [
             "Meilleure Startup SaaS au Sommet AfricArena 2024"
         ],
-        "funding_stage": "Seed",
+        "funding_stage": "850 000 € levés",
         "funding_amount": 850000,
         "enrichment_sources": [
             "https://cynoia.com/"
@@ -365,17 +381,7 @@
             "https://ipomm.tech/"
         ],
         "social_links_found": false,
-        "confidence_score": 0.2,
-        "technologies": [
-            "BIM",
-            "AI",
-            "Web Application",
-            "Mobile Application"
-        ],
-        "products_services": [
-            "BIM Information Modeling",
-            "Construction Team Evaluation Tool"
-        ]
+        "confidence_score": 0.2
     },
     {
         "entity_type": "startup",
@@ -404,7 +410,7 @@
         "entity_type": "startup",
         "startup_name": "DrillSERV",
         "sector": "Tech Sercices/ engineering",
-        "description": "Gestion durable des ressources en eaux souterraines. DrillSERV vous offre les meilleurs services de forage en allant de l'exploration jusqu'à la production tout en appuyant sur une équipe jeune, motivée et hautement qualifiée dans le domaine de forage et l'hydrogéologie et équipée d'un matériel professionnel de nouvelle génération.",
+        "description": "Gestion durable des ressources en eaux souterraines.",
         "country": "Tunisia",
         "city": null,
         "founding_year": null,
@@ -420,40 +426,47 @@
             "facebook": "https://www.facebook.com/DrillServ.Tunisia/",
             "linkedin": "https://www.linkedin.com/company/drillserv-tunisia/"
         },
-        "tagline": "Best Solutions For Drilling Engineering",
-        "address": "09, rue ebn aljazar, Tunis, Tunisia",
-        "leadership_team": [
-            {
-                "name": "Hamza ESSAYEH",
-                "linkedin": "https://tn.linkedin.com/in/hamza-essayeh-80b602137"
-            }
-        ],
-        "employee_count": 11,
-        "technologies": [
-            "Résistivimètre PASI",
-            "Sonde électrique GEOVISTA",
-            "Foracam : AGM TEC",
-            "Ecotube : irrigation souterraine"
-        ],
         "products_services": [
-            "Recherche d’eau souterraine par prospection électrique",
-            "Suivi des forages",
-            "Carottage électrique",
-            "Conception de programme de captage",
-            "Calcul des paramètres hydrauliques",
-            "Inspection des forages par caméra vidéo",
-            "Diagnostic des anciens puits",
-            "Propositions des travaux de régénération",
-            "Études géologiques et environnementales",
-            "Levers de terrains des sites potentiels",
-            "Planification et optimisation des systèmes d’irrigation"
+            "Prospection électrique",
+            "Diagraphie électrique",
+            "Inspection par caméra vidéo",
+            "Géologie et Environnement",
+            "Conseil",
+            "Suivi de Forage",
+            "Conception de Forage",
+            "Régénération",
+            "Études et Installation des Systèmes d’irrigation",
+            "Equipements",
+            "Géophysique",
+            "Diagraphie",
+            "Inspection",
+            "Services d’ingénierie"
         ],
+        "partners": [
+            "IFarming",
+            "Hydrogeo",
+            "Geopro",
+            "Geoplus"
+        ],
+        "customers": [
+            "Alfa",
+            "Safia",
+            "CPG",
+            "SONEDE",
+            "CRDA",
+            "Vitalait",
+            "Tunisie Régénération",
+            "SOFORI"
+        ],
+        "tagline": "Experts en forage et les études géophysiques destinés à la recherche d’eau",
+        "address": "09 Rue Ibn El Jazzar, 2éme Étage, Bureau 1-2, Lafayette, Tunisia",
+        "phone": "97 660 702",
         "enrichment_sources": [
             "http://drillserv-tunisia.com.tn/"
         ],
         "failed_enrichment_sources": [],
         "social_links_found": true,
-        "confidence_score": 0.6
+        "confidence_score": 0.4
     },
     {
         "entity_type": "startup",
@@ -952,8 +965,8 @@
         "entity_type": "startup",
         "startup_name": "WeMove",
         "sector": "Wellness",
-        "description": "Une application qui permet de choisir ses séances de sport en fonction de ses envies et réserver ses accès.",
-        "country": null,
+        "description": "Application permettant de choisir et réserver des séances de sport en fonction de ses envies.",
+        "country": "Tunisia",
         "city": null,
         "founding_year": null,
         "founders": [],
@@ -969,8 +982,8 @@
         "entity_type": "startup",
         "startup_name": "Youth Hub",
         "sector": "Edtech / Healthtech",
-        "description": "Le hub ultime pour libérer le potentiel entrepreneurial des enfants. Dirigeants âgés de 6 à 18 ans.",
-        "country": null,
+        "description": "Hub pour libérer le potentiel entrepreneurial des enfants âgés de 6 à 18 ans.",
+        "country": "Tunisia",
         "city": null,
         "founding_year": null,
         "founders": [],
@@ -986,8 +999,8 @@
         "entity_type": "startup",
         "startup_name": "Ahkili",
         "sector": "Wellness",
-        "description": "Une start-up facilitant l'accès aux soins psychologiques grâce à un système de réservation et de consultation en ligne avec des psychologues expérimentés.",
-        "country": null,
+        "description": "Start-up facilitant l'accès aux soins psychologiques grâce à un système de réservation et de consultation en ligne avec des psychologues expérimentés.",
+        "country": "Tunisia",
         "city": null,
         "founding_year": null,
         "founders": [],
@@ -1003,8 +1016,8 @@
         "entity_type": "startup",
         "startup_name": "Arzaak",
         "sector": "Artisanat",
-        "description": "Une start-up qui renforce l’autonomisation des femmes en leur fournissant des compétences dans le secteur des métiers artisanaux et créatifs.",
-        "country": null,
+        "description": "Start-up qui renforce l’autonomisation des femmes en leur fournissant des compétences dans le secteur des métiers artisanaux et créatifs.",
+        "country": "Tunisia",
         "city": null,
         "founding_year": null,
         "founders": [],
@@ -1020,8 +1033,8 @@
         "entity_type": "startup",
         "startup_name": "Bako Motors",
         "sector": "Mobility",
-        "description": "Une start-up tuniso-allemande spécialisée dans la fabrication de véhicules électriques alimentés par le soleil prévus pour le secteur de 'Last mile delivery'.",
-        "country": null,
+        "description": "Start-up tuniso-allemande spécialisée dans la fabrication de véhicules électriques alimentés par le soleil prévus pour le secteur de 'Last mile delivery'.",
+        "country": "Tunisia",
         "city": null,
         "founding_year": null,
         "founders": [],
@@ -1037,8 +1050,8 @@
         "entity_type": "startup",
         "startup_name": "Blue Jet Engineering",
         "sector": "watertech / greentech",
-        "description": "Une start-up spécialisée dans le développement de solutions d'irrigation intelligentes pour le secteur agricole.",
-        "country": null,
+        "description": "Start-up spécialisée dans le développement de solutions d'irrigation intelligentes pour le secteur agricole.",
+        "country": "Tunisia",
         "city": null,
         "founding_year": null,
         "founders": [],
@@ -1054,8 +1067,8 @@
         "entity_type": "startup",
         "startup_name": "DCX",
         "sector": "Edtech",
-        "description": "Digital Cultural eXperience est une start-up EdTech dédiée à la promotion de l'éducation au patrimoine chez les jeunes grâce à la création d'expériences immersives.",
-        "country": null,
+        "description": "Start-up EdTech dédiée à la promotion de l'éducation au patrimoine chez les jeunes grâce à la création d'expériences immersives.",
+        "country": "Tunisia",
         "city": null,
         "founding_year": null,
         "founders": [],
@@ -1071,8 +1084,8 @@
         "entity_type": "startup",
         "startup_name": "eSteps Health",
         "sector": "Healthtech",
-        "description": "Une star-tup qui propose des solutions de tracking à distance de maladies neurodégénératives à destination des patients et des professionnels de santé.",
-        "country": null,
+        "description": "Start-up proposant des solutions de tracking à distance de maladies neurodégénératives à destination des patients et des professionnels de santé.",
+        "country": "Tunisia",
         "city": null,
         "founding_year": null,
         "founders": [],
@@ -1088,8 +1101,8 @@
         "entity_type": "startup",
         "startup_name": "Flouci",
         "sector": "Fintech",
-        "description": "Une app financière de banque digitale, de gestion de wallets et de paiements pour les particuliers et les entreprises.",
-        "country": null,
+        "description": "Application financière de banque digitale, de gestion de wallets et de paiements pour les particuliers et les entreprises.",
+        "country": "Tunisia",
         "city": null,
         "founding_year": null,
         "founders": [],
@@ -1105,8 +1118,8 @@
         "entity_type": "startup",
         "startup_name": "Instaware",
         "sector": "AI/ Tech environment",
-        "description": "Une start-up qui propose des solutions de domotique et de sécurité basées sur l'intelligence artificielle.",
-        "country": null,
+        "description": "Start-up proposant des solutions de domotique et de sécurité basées sur l'intelligence artificielle.",
+        "country": "Tunisia",
         "city": null,
         "founding_year": null,
         "founders": [],
@@ -1122,8 +1135,8 @@
         "entity_type": "startup",
         "startup_name": "Kamioun",
         "sector": "B2B software services",
-        "description": "Une start-up qui propose aux magasins de quartier une plateforme mobile qui les aide à assurer la gestion de leurs stocks et à digitaliser leurs opérations.",
-        "country": null,
+        "description": "Start-up proposant aux magasins de quartier une plateforme mobile pour la gestion des stocks et la digitalisation des opérations.",
+        "country": "Tunisia",
         "city": null,
         "founding_year": null,
         "founders": [],
@@ -1139,8 +1152,8 @@
         "entity_type": "startup",
         "startup_name": "Lunar TC",
         "sector": "Business Software and services",
-        "description": "Une start-up spécialisée dans l’automatisation des processus grâce à son 'No code Workflow Management System'.",
-        "country": null,
+        "description": "Start-up spécialisée dans l’automatisation des processus grâce à son 'No code Workflow Management System'.",
+        "country": "Tunisia",
         "city": null,
         "founding_year": null,
         "founders": [],
@@ -1156,8 +1169,8 @@
         "entity_type": "startup",
         "startup_name": "NextAV",
         "sector": "IA/Greentech",
-        "description": "Une start-up spécialisée dans l'analyse géospatiale qui, grâce à l'intelligence artificielle, propose des solutions innovantes pour le développement durable.",
-        "country": null,
+        "description": "Start-up spécialisée dans l'analyse géospatiale proposant des solutions innovantes pour le développement durable grâce à l'intelligence artificielle.",
+        "country": "Tunisia",
         "city": null,
         "founding_year": null,
         "founders": [],
@@ -1173,8 +1186,8 @@
         "entity_type": "startup",
         "startup_name": "SIMARL",
         "sector": "LegalTech",
-        "description": "Une start-up qui propose des solutions de résolution de conflits par la négociation, la médiation et l'arbitrage en intégrant des technologies.",
-        "country": null,
+        "description": "Start-up proposant des solutions de résolution de conflits par la négociation, la médiation et l'arbitrage en intégrant des technologies.",
+        "country": "Tunisia",
         "city": null,
         "founding_year": null,
         "founders": [],
@@ -1190,8 +1203,8 @@
         "entity_type": "startup",
         "startup_name": "Slidzo",
         "sector": "Software/IA",
-        "description": "Une plateforme d'édition de présentations en ligne avec des fonctionnalités 3D et d'intelligence artificielle.",
-        "country": null,
+        "description": "Plateforme d'édition de présentations en ligne avec des fonctionnalités 3D et d'intelligence artificielle.",
+        "country": "Tunisia",
         "city": null,
         "founding_year": null,
         "founders": [],
@@ -1207,8 +1220,8 @@
         "entity_type": "startup",
         "startup_name": "SmarDac",
         "sector": "Business Software and services",
-        "description": "Une solution pay-as-you-go ciblant l'industrie de l'énergie.",
-        "country": null,
+        "description": "Solution pay-as-you-go ciblant l'industrie de l'énergie.",
+        "country": "Tunisia",
         "city": null,
         "founding_year": null,
         "founders": [],
@@ -1224,8 +1237,8 @@
         "entity_type": "startup",
         "startup_name": "Soul & Planet",
         "sector": "Greentech",
-        "description": "Une start-up qui propose des solutions et produits éco-responsables à destination des entreprises pour réduire leur impact environnemental.",
-        "country": null,
+        "description": "Start-up proposant des solutions et produits éco-responsables à destination des entreprises pour réduire leur impact environnemental.",
+        "country": "Tunisia",
         "city": null,
         "founding_year": null,
         "founders": [],
@@ -1241,8 +1254,8 @@
         "entity_type": "startup",
         "startup_name": "Tabaani",
         "sector": "Consumer products and services",
-        "description": "Une start-up proposant une plateforme qui permet de connecter voyageurs à la recherche d'expériences authentiques et habitants permettant une immersion au sein des communautés locales.",
-        "country": null,
+        "description": "Start-up proposant une plateforme pour connecter voyageurs et habitants pour des expériences authentiques.",
+        "country": "Tunisia",
         "city": null,
         "founding_year": null,
         "founders": [],
@@ -1258,14 +1271,14 @@
         "entity_type": "startup",
         "startup_name": "UXers",
         "sector": "Design/UX",
-        "description": "Une start-up proposant des formations et du mentorat dans le secteur de l'UX Design.",
-        "country": null,
+        "description": "Start-up proposant des formations et du mentorat dans le secteur de l'UX Design.",
+        "country": "Tunisia",
         "city": null,
         "founding_year": null,
         "founders": [],
         "website": "https://www.linkedin.com/company/the-uxers-tn/",
         "email": null,
-        "linkedin": null,
+        "linkedin": "https://www.linkedin.com/company/the-uxers-tn/",
         "status": null,
         "startup_stage": null,
         "investors": [],
@@ -1275,8 +1288,8 @@
         "entity_type": "startup",
         "startup_name": "ViZmerald",
         "sector": "Advanced Manufacturing & Robotics",
-        "description": "Une start-up spécialisée dans le design de produits électroniques dont le premier produit est un casque de protection respiratoire connecté pour les professionnels de l'industrie et de la santé.",
-        "country": null,
+        "description": "Start-up spécialisée dans le design de produits électroniques, dont un casque de protection respiratoire connecté pour les professionnels de l'industrie et de la santé.",
+        "country": "Tunisia",
         "city": null,
         "founding_year": null,
         "founders": [],
@@ -1292,8 +1305,8 @@
         "entity_type": "startup",
         "startup_name": "Wantotrip",
         "sector": "Consumer products and services",
-        "description": "Une plateforme de gestion de voyages qui connecte les influenceurs et créateurs de contenu avec leur communautés autour d'expériences de voyage authentiques.",
-        "country": null,
+        "description": "Plateforme de gestion de voyages connectant influenceurs et créateurs de contenu avec leur communauté autour d'expériences de voyage authentiques.",
+        "country": "Tunisia",
         "city": null,
         "founding_year": null,
         "founders": [],
@@ -1741,7 +1754,7 @@
         "investor_type": "incubator",
         "website": "https://thedot.tn",
         "country": "Tunisia",
-        "description": "The Dot is an incubator and training center that supports entrepreneurs and startups in Tunisia.",
+        "description": "The Dot is an incubator and center of formation that supports entrepreneurs and startups in Tunisia.",
         "investment_sectors": [],
         "total_investments": null,
         "source_url": "https://thedot.tn"
@@ -1758,78 +1771,67 @@
         "source_url": "https://thedot.tn"
     },
     {
-        "entity_type": "support_organization",
-        "investor_name": "Dot Services",
-        "investor_type": "support_organization",
-        "website": "https://thedot.tn/programs-services/6-dot-services",
+        "entity_type": "startup_directory",
+        "investor_name": "The Dot",
+        "investor_type": "startup_directory",
+        "website": "https://thedot.tn",
         "country": "Tunisia",
-        "description": "A program designed as a center of useful and free resources.",
-        "investment_sectors": [],
-        "total_investments": null,
-        "source_url": "https://thedot.tn"
-    },
-    {
-        "entity_type": "support_organization",
-        "investor_name": "Dot Executives in Residence",
-        "investor_type": "support_organization",
-        "website": "https://thedot.tn/programs-services/4-dot-executives-in-residence",
-        "country": "Tunisia",
-        "description": "A program with over 50 executives and entrepreneurs to challenge, advise, and guide startups.",
-        "investment_sectors": [],
-        "total_investments": null,
-        "source_url": "https://thedot.tn"
-    },
-    {
-        "entity_type": "support_organization",
-        "investor_name": "Dot Landing",
-        "investor_type": "support_organization",
-        "website": "https://thedot.tn/programs-services/5-dot-landing",
-        "country": "Tunisia",
-        "description": "A support program for entrepreneurs from the Tunisian diaspora, offering 4 months of free accommodation for foreign companies and startups looking to establish themselves in Tunisia or build business relationships.",
+        "description": "The Dot lists and supports startups in Tunisia.",
         "investment_sectors": [],
         "total_investments": null,
         "source_url": "https://thedot.tn"
     },
     {
         "entity_type": "incubator",
-        "investor_name": "Dot Camp",
+        "investor_name": "The Dot Landing",
         "investor_type": "incubator",
-        "website": "https://thedot.tn/programs-services/1-dot-camp",
+        "website": null,
         "country": "Tunisia",
-        "description": "An incubator program that hosted 37 startups in 2021-2022, offering free accommodation and access to a wide range of services.",
+        "description": "The Dot Landing is an incubator that targets Tunisian diaspora entrepreneurs.",
+        "investment_sectors": [],
+        "total_investments": null,
+        "source_url": "https://thedot.tn"
+    },
+    {
+        "entity_type": "accelerator",
+        "investor_name": "Dot Camp",
+        "investor_type": "accelerator",
+        "website": null,
+        "country": "Tunisia",
+        "description": "Dot Camp is a dynamic and inclusive program by The Dot that supports innovative startups from all sectors, offering resources, environment, and community to accelerate their growth.",
         "investment_sectors": [],
         "total_investments": null,
         "source_url": "https://thedot.tn"
     },
     {
         "entity_type": "support_organization",
-        "investor_name": "Bridge'up",
-        "investor_type": "support_organization",
-        "website": "https://thedot.tn/programs-services/7-bridgeup",
-        "country": "Tunisia",
-        "description": "A program that strengthens innovation through cooperation between clusters and supports startups.",
-        "investment_sectors": [],
-        "total_investments": null,
-        "source_url": "https://thedot.tn"
-    },
-    {
-        "entity_type": "support_organization",
-        "investor_name": "Orange",
+        "investor_name": "French Tech Tunis",
         "investor_type": "support_organization",
         "website": null,
         "country": "Tunisia",
-        "description": "Orange organized the POESAM 2023 competition, which eSteps Health won, providing a platform for Tunisian startups to showcase their innovations.",
+        "description": "French Tech Tunis is a hub that promotes the development of the tech ecosystem in Tunisia, particularly in Deeptech and AI.",
         "investment_sectors": [],
         "total_investments": null,
         "source_url": "https://thedot.tn"
     },
     {
         "entity_type": "support_organization",
-        "investor_name": "La French Tech Tunis",
+        "investor_name": "Big Tech Africa",
         "investor_type": "support_organization",
         "website": null,
         "country": "Tunisia",
-        "description": "La French Tech Tunis is a support organization that promotes the French Tech ecosystem in Tunisia.",
+        "description": "Big Tech Africa is a salon focused on technologies, artificial intelligence, and startups, bringing together participants from over 30 countries.",
+        "investment_sectors": [],
+        "total_investments": null,
+        "source_url": "https://thedot.tn"
+    },
+    {
+        "entity_type": "support_organization",
+        "investor_name": "Université Centrale",
+        "investor_type": "support_organization",
+        "website": null,
+        "country": "Tunisia",
+        "description": "Université Centrale has partnerships with Wikistartup and YoutHub to support startups.",
         "investment_sectors": [],
         "total_investments": null,
         "source_url": "https://thedot.tn"
@@ -1840,7 +1842,18 @@
         "investor_type": "support_organization",
         "website": null,
         "country": "Tunisia",
-        "description": "TunisianStartups is a support organization that works on the Startup Act 2.0 in Tunisia.",
+        "description": "TunisianStartups has a Think Tank that works on initiatives like the Startup Act 2.0.",
+        "investment_sectors": [],
+        "total_investments": null,
+        "source_url": "https://thedot.tn"
+    },
+    {
+        "entity_type": "support_organization",
+        "investor_name": "Soft Landing",
+        "investor_type": "support_organization",
+        "website": null,
+        "country": "Tunisia",
+        "description": "Soft Landing is an initiative to attract foreign investors to Tunisia.",
         "investment_sectors": [],
         "total_investments": null,
         "source_url": "https://thedot.tn"
@@ -1857,87 +1870,36 @@
         "source_url": "https://thedot.tn"
     },
     {
-        "entity_type": "startup",
-        "startup_name": "ESteps",
-        "sector": "Health",
-        "description": "ESteps choisit la Tunisie pour conquérir l'Afrique. eSteps Health remporte le premier prix du POESAM 2023 organisé par Orange.",
-        "country": "Tunisie",
-        "city": null,
-        "founding_year": null,
-        "founders": [],
-        "website": null,
-        "email": null,
-        "linkedin": null,
-        "status": null,
-        "startup_stage": null,
-        "investors": [],
-        "source_url": "https://thedot.tn"
-    },
-    {
-        "entity_type": "incubator",
-        "investor_name": "The Dot Landing",
-        "investor_type": "incubator",
+        "entity_type": "unknown",
+        "investor_name": "Big Tech Africa",
+        "investor_type": null,
         "website": null,
         "country": "Tunisie",
-        "description": "The Dot Landing, l’incubateur qui courtise les entrepreneurs de la diaspora tunisienne.",
+        "description": "Salon africain des technologies, de l'intelligence artificielle et des start-ups",
         "investment_sectors": [],
         "total_investments": null,
         "source_url": "https://thedot.tn"
     },
     {
         "entity_type": "support_organization",
-        "investor_name": "Université Centrale",
+        "investor_name": "Dot Landing",
         "investor_type": "support_organization",
         "website": null,
         "country": "Tunisia",
-        "description": "Université Centrale has partnerships with Wikistartup and YoutHub.",
+        "description": "Dot Landing est un programme cofinancé par Meet Africa 2 et la Région Île-de-France, en partenariat avec l'ATUGE France, l'Invest in Tunisia Agency - FIPA, et la Fondation Tunisie pour le Développement. Il est spécialement conçu pour les entrepreneurs de la diaspora tunisienne désireux de lancer des projets en Tunisie.",
         "investment_sectors": [],
         "total_investments": null,
-        "source_url": "https://thedot.tn"
+        "source_url": "https://thedot.tn/programs-services/5-dot-landing"
     },
     {
-        "entity_type": "startup",
-        "startup_name": "Wikistartup",
-        "sector": null,
-        "description": null,
+        "entity_type": "support_organization",
+        "investor_name": "Bridge'Up",
+        "investor_type": "support_organization",
+        "website": "https://thedot.tn/programs-services/7-bridgeup",
         "country": "Tunisia",
-        "city": null,
-        "founding_year": null,
-        "founders": [],
-        "website": null,
-        "email": null,
-        "linkedin": null,
-        "status": null,
-        "startup_stage": null,
-        "investors": [],
-        "source_url": "https://thedot.tn"
-    },
-    {
-        "entity_type": "startup",
-        "startup_name": "YoutHub",
-        "sector": null,
-        "description": null,
-        "country": "Tunisia",
-        "city": null,
-        "founding_year": null,
-        "founders": [],
-        "website": null,
-        "email": null,
-        "linkedin": null,
-        "status": null,
-        "startup_stage": null,
-        "investors": [],
-        "source_url": "https://thedot.tn"
-    },
-    {
-        "entity_type": "unknown",
-        "investor_name": "Big Tech Africa",
-        "investor_type": null,
-        "website": null,
-        "country": "Tunisia",
-        "description": "A salon focused on technologies, AI, and startups in Africa.",
+        "description": "Bridge'Up est une initiative soutenue par la Commission européenne. L'objectif de cette collaboration est de renforcer l'innovation en encourageant la coopération entre clusters et en soutenant les écosystèmes de start-up dans les pays du voisinage sud.",
         "investment_sectors": [],
         "total_investments": null,
-        "source_url": "https://thedot.tn"
+        "source_url": "https://thedot.tn/programs-services/7-bridgeup"
     }
 ]

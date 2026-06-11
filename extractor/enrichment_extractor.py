@@ -113,7 +113,34 @@ Regles :
 - N'invente jamais une information.
 - Si une information est absente, garde null ou [].
 - Ne change pas le nom de l'entite sauf correction evidente.
-- Complete surtout : email, linkedin, founders, city, country, founding_year, sector, description, status, startup_stage, investors.
+- Complete si disponible :
+
+    - email
+    - linkedin
+    - phone
+    - address
+    - city
+    - country
+    - founding_year
+    - founders
+    - leadership_team
+    - employee_count
+    - sector
+    - technologies
+    - products_services
+    - partners
+    - customers
+    - investors
+    - funding_stage
+    - funding_amount
+    - startup_stage
+    - status
+    - accelerators
+    - incubators
+    - awards
+-Règle très importante :
+Complète en priorité les champs qui sont actuellement null, vides ou [].
+Ne remplace pas une valeur déjà présente sauf si la nouvelle information est plus complète ou plus précise.
 
 Entite existante :
 {json.dumps(entity, ensure_ascii=False, indent=2)}
